@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Register</h1>
+        <form>
+            <label for="name" class="bold">Name</label><br> 
+             <input type="text" placeholder="Name" id="name" name="yourName" required><br> 
+
+            <label for="email" class="bold">Email</label><br>  
+            <input type="email" placeholder="Email address" id="email" name="yourEmail"  required><br><br>
+
+            <label for="gender" class="bold">Gender</label>
+            <input type="radio" name="gender" id="male"><label for="male">Male</label>
+            <input type="radio" name="gender" id="female"><label for="female">Female</label><br><br>
+
+            <label for="membership" class="bold">Membership</label>
+            <input type="radio" name="membership" id="basic"><label for="male">Basic</label>
+            <input type="radio" name="membership" id="standard"><label for="female">Standard</label>
+            <input type="radio" name="membership" id="premium"><label for="female">Premium</label><br><br>
+
+            <label for="user" class="bold">Username</label><br> 
+             <input type="text" placeholder="Username" id="user" name="yourUsername" required><br>
+
+            <label for="password" class="bold">Password</label><br> 
+             <input type="password" placeholder="Password" id="password" name="yourPassword" required><br>
+
+            <label for="confirmPassword" class="bold">Confirm Password</label><br>  
+            <input type="password" placeholder="Confirm Password" id="confirmPassword" name="comfirmPassword" required><br><br>
+
+            
+            <input type="file" id="file" name="uploadFile">
+            <label for="file" class="bold">
+                <img src="img/folder.png" alt="" width="20px">
+                Upload Portfolio
+            </label><br><br>
+
+            <button type="submit" class="button">Register</button>
+
+        </form>
+    </div>
+</body>
+</html>
